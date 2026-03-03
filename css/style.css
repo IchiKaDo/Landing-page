@@ -1,19 +1,41 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 header {
     display: flex;
-    height: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .header_logo {
     display: flex;
+    width: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-.header_content {
+.hero {
     display: flex;
+    flex-direction: column;
+}
+
+.header_links {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 12px;
+}
+
+.header_link_1,
+.header_link_2,
+.header_link_3 {
+    color: #E5E7EB;
 }
 
