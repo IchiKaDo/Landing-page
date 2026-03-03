@@ -1,5 +1,19 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Makes width/height include padding and border */
+  font-family: Roboto, sans-serif;
 }
+
+header {
+    display: flex;
+    height: 600px;
+}
+
+.header_logo {
+    display: flex;
+}
+
+.header_content {
+    display: flex;
+}
+
