@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
 }
 
@@ -18,11 +18,6 @@ header {
     width: auto;
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
 }
 
 .header_links {
@@ -37,5 +32,25 @@ header {
 .header_link_2,
 .header_link_3 {
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.main_text {
+    display: flex;
+    color: #E5E7EB;
+}
+
+.subtext {
+    display: flex;
+}
+
+hero_button {
+    display: flex;
 }
 
