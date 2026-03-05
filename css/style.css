@@ -34,9 +34,13 @@ header {
     color: #E5E7EB;
 }
 
+.left_hero {
+    display: flex;
+    flex-direction: row;
+}
+
 .hero {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     background-color: #1F2937;
 }
@@ -48,9 +52,12 @@ header {
 
 .subtext {
     display: flex;
+    color: #E5E7EB;
 }
 
-hero_button {
+.hero_button {
     display: flex;
+    color: #E5E7EB;
+    background-color: #3882F6 ;
 }
 
