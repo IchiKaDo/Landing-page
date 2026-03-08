@@ -68,9 +68,15 @@ header {
 
 .hero_button {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
     color: #E5E7EB;
     background-color: #3882F6 ;
     flex-shrink: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 .hero_image {
@@ -101,9 +107,15 @@ header {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    border: #3882F6;
+    border-width: 3px;
 }
 
 .box1, .box2, .box3, .box4 {
     width: 40px;
-    background-color: blue;
+    background-color: red;
+    border: #3882F6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
 }
