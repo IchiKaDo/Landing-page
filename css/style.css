@@ -123,6 +123,8 @@ header {
 .box_containers {
     display: flex;
     flex-direction: column;
-    width: 40px;
+    align-items: center;
+    text-align: center;
+    width: 200px;
     background-color: #E5E7EB;
 }
