@@ -66,6 +66,7 @@ header {
     flex-shrink: 1;
 }
 
+.call_to_action_button,
 .hero_button {
     display: flex;
     align-items: center;
@@ -132,6 +133,8 @@ header {
     background-color: #E5E7EB;
 }
 
+/* This is where Quote section starts */
+
 .quote_container {
     display: flex;
     flex-direction: column;
@@ -150,5 +153,58 @@ header {
     color: #1F2937;
     font-weight: 300;
     width: 750px;
-    height: 400px;
+    height: 200px;
 }
+
+.quoted {
+    display: flex;
+    color: black;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;
+    align-self: flex-end;
+    margin-right: 200px;
+}
+
+/* Where call to action section starts */
+
+.call_to_action_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.call_to_action_main {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.call_to_action_sub {
+    display: flex;
+    color: #E5E7EB;
+}
+
+.call_to_action_button {
+    width: 100px;
+    border-color: #E5E7EB;
+}
+
+/* This is where Footer section starts */
