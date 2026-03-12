@@ -121,6 +121,7 @@ header {
     border-width: 4px;
     border-style: solid;
     border-radius: 20px;
+    flex-shrink: 1;
 }
 
 .box_containers {
@@ -130,7 +131,6 @@ header {
     text-align: center;
     width: 165px;
     height: 225px;
-    background-color: #E5E7EB;
 }
 
 /* This is where Quote section starts */
@@ -164,7 +164,7 @@ header {
     font-weight: 700;
     justify-content: center;
     align-self: flex-end;
-    margin-right: 200px;
+    margin-right: 300px;
 }
 
 /* Where call to action section starts */
@@ -182,16 +182,16 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 850px;
-    height: 150px;
+    height: 125px;
     background-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .call_to_action_main {
     display: flex;
     width: 300px;
     height: 100px;
-    font-size: 18px;
+    font-size: 24px;
     flex-direction: column;
     justify-content: center;
     color: white;
@@ -199,12 +199,26 @@ header {
 
 .call_to_action_sub {
     display: flex;
+    font-size: 16px;
     color: #E5E7EB;
 }
 
 .call_to_action_button {
     width: 100px;
     border-color: #E5E7EB;
+}
+
+.footer {
+    position: fixed;
+    height: 325px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
 }
 
 /* This is where Footer section starts */
