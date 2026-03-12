@@ -208,6 +208,8 @@ header {
     border-color: #E5E7EB;
 }
 
+/* This is where Footer section starts */
+
 .footer {
     position: fixed;
     height: 325px;
@@ -218,7 +220,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #eee;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
-
-/* This is where Footer section starts */
